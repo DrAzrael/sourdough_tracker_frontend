@@ -1,5 +1,6 @@
 import { BarChart3, Users, ArrowRight, Wheat } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Footer from "~/routes/footer"
 
 export default function LandingPage() {
   return (
@@ -149,71 +150,7 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-[#6F4B2B] bg-[#2D1B0A]">
-        <div className="  py-8 md:py-12">
-          <div className="grid grid-cols-2 gap-8 md:grid-cols-4 px-5">
-            <div className="flex flex-col gap-2">
-              <h3 className="text-lg font-semibold text-[#DDD4D5]">Resources</h3>
-              <a href="#" className="text-[#B1A6A3] hover:text-[#DDD4D5]">
-                Guides
-              </a>
-              <a href="#" className="text-[#B1A6A3] hover:text-[#DDD4D5]">
-                Tutorials
-              </a>
-              <a href="#" className="text-[#B1A6A3] hover:text-[#DDD4D5]">
-                FAQ
-              </a>
-            </div>
-            <div className="flex flex-col gap-2">
-              <h3 className="text-lg font-semibold text-[#DDD4D5]">Community</h3>
-              <a href="#" className="text-[#B1A6A3] hover:text-[#DDD4D5]">
-                Discord
-              </a>
-              <a href="#" className="text-[#B1A6A3] hover:text-[#DDD4D5]">
-                Forums
-              </a>
-              <a href="#" className="text-[#B1A6A3] hover:text-[#DDD4D5]">
-                Events
-              </a>
-            </div>
-            <div className="flex flex-col gap-2">
-              <h3 className="text-lg font-semibold text-[#DDD4D5]">Legal</h3>
-              <a href="#" className="text-[#B1A6A3] hover:text-[#DDD4D5]">
-                Privacy Policy
-              </a>
-              <a href="#" className="text-[#B1A6A3] hover:text-[#DDD4D5]">
-                Terms of Service
-              </a>
-              <a href="#" className="text-[#B1A6A3] hover:text-[#DDD4D5]">
-                Cookie Policy
-              </a>
-            </div>
-            <div className="flex flex-col gap-2">
-              <h3 className="text-lg font-semibold text-[#DDD4D5]">Company</h3>
-              <a href="#" className="text-[#B1A6A3] hover:text-[#DDD4D5]">
-                About Us
-              </a>
-              <a href="#" className="text-[#B1A6A3] hover:text-[#DDD4D5]">
-                Contact
-              </a>
-              <a href="#" className="text-[#B1A6A3] hover:text-[#DDD4D5]">
-                Blog
-              </a>
-            </div>
-          </div>
-          <div className="mt-8 flex flex-col items-center justify-between gap-4 border-t border-[#6F4B2B] pt-8 px-5 md:flex-row">
-            <div className="flex items-center gap-2">
-              {/* Footer Logo */}
-              <div className="h-8 w-fit">
-                <img src="/logo.svg" alt="Sourdough Tracker Logo" className="h-full w-full object-contain" />
-              </div>
-            </div>
-            <p className="text-center text-sm text-[#B1A6A3]">
-              © {new Date().getFullYear()} Sourdough Tracker - Not affiliated with Roblox or Breadwinner World.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer></Footer>
     </div>
   )
 }
