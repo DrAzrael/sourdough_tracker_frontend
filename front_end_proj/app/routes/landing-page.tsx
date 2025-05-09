@@ -3,10 +3,10 @@ import { Button } from "@/components/ui/button"
 
 export default function LandingPage() {
   return (
-    <div className="flex min-h-screen flex-col bg-[#2D1B0A] text-[#DDD4D5]">
+    <div className="flex min-h-screen w-full flex-col bg-[#2D1B0A] text-[#DDD4D5]">
       {/* Top Bar */}
       <header className="sticky top-0 z-40 w-full border-b border-[#6F4B2B] bg-[#3E250F]">
-        <div className="container flex h-16 items-center justify-between px-5">
+        <div className="  flex h-16 items-center justify-between px-5 w-ull">
           <div className="flex items-center">
             {/* Logo Image Placeholder */}
             <div className="h-12">
@@ -20,7 +20,7 @@ export default function LandingPage() {
       </header>
 
       {/* Hero Section */}
-      <section className="container py-12 md:py-24 lg:py-32 bg-[#3E250F]">
+      <section className="  py-12 md:py-24 lg:py-32 bg-[#3E250F]">
         <div className="mx-auto flex max-w-[980px] flex-col items-center gap-4 text-center">
           <h1 className="text-3xl font-bold leading-tight tracking-tighter text-[#DDD4D5] md:text-5xl lg:text-6xl lg:leading-[1.1]">
             Track & Share Your Village Stats in Breadwinner World.
@@ -49,7 +49,7 @@ export default function LandingPage() {
       </section>
 
       {/* Features Section */}
-      <section className="container py-12 md:py-24 lg:py-32 bg-[#2D1B0A]">
+      <section className="  py-12 md:py-24 lg:py-32 bg-[#2D1B0A]">
         <div className="mx-auto flex max-w-[980px] flex-col items-center gap-4 text-center">
           <h2 className="text-3xl font-bold leading-tight tracking-tighter text-[#DDD4D5] md:text-4xl">
             Simple Tool for Village Stat Tracking
@@ -92,7 +92,7 @@ export default function LandingPage() {
       </section>
 
 {/* Player-Driven Insights Section */}
-<section className="container py-12 md:py-24 lg:py-32 bg-[#3E250F]">
+<section className="  py-12 md:py-24 lg:py-32 bg-[#3E250F]">
         <div className="mx-auto grid max-w-5xl gap-6 lg:grid-cols-2">
           <div className="flex flex-col justify-center space-y-4">
             <h2 className="text-3xl font-bold leading-tight tracking-tighter text-[#DDD4D5] md:text-4xl">
@@ -133,7 +133,7 @@ export default function LandingPage() {
 
       {/* CTA Section */}
       <section className="bg-[#E99B31] text-[#2D1B0A]">
-        <div className="container py-12 md:py-24 lg:py-32">
+        <div className="  py-12 md:py-24 lg:py-32">
           <div className="mx-auto flex max-w-[980px] flex-col items-center gap-4 text-center">
             <h2 className="text-3xl font-bold leading-tight tracking-tighter md:text-4xl">
               Ready to optimize your village?
@@ -150,7 +150,7 @@ export default function LandingPage() {
 
       {/* Footer */}
       <footer className="border-t border-[#6F4B2B] bg-[#2D1B0A]">
-        <div className="container py-8 md:py-12">
+        <div className="  py-8 md:py-12">
           <div className="grid grid-cols-2 gap-8 md:grid-cols-4 px-5">
             <div className="flex flex-col gap-2">
               <h3 className="text-lg font-semibold text-[#DDD4D5]">Resources</h3>
